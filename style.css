@@ -1,0 +1,33 @@
+.myGrid div {
+  height: 80px; 
+  width: auto;
+  border: solid black 1px;
+  background-color: lightgray;
+}
+
+
+/* Edit below this line */
+
+
+.myGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+#row1col1 {
+  
+}
+
+#row1col2 {
+  
+}
+
+#row2col1 {
+  
+}
+
+#row2col2 {
+  
+}
